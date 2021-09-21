@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>        
+    <meta charset="utf-8">  
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Playfair+Display&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+  <script type="text/javascript" src="./jquery-3.6.0.js"></script>
+    <title>HW23-js-jquery-part2</title>
+  </head>
+<body>		
+<div>HW23-js-jquery-part2</div>
+
+<div>
+  1. Создайте на вашем github репозиторий с именем HW23-js-jquery-part2. Все результаты нужно запушить в ваш репозиторий и прикрепить ссылку на hillel портале.<br>
+  2. Создайте index.html в котором подключите js script.<br>
+  3. Переделать ToDo-list с использованием jQuery<br>
+  Вся работа с DOM должна проходить через jquery, в том числе обработка событий и url данных (jQuery ajax).<br>
+  <br>
+  Упрощенная версия:<br>
+  Можно без ajax, без запросов на сервер. Желательно с ним.<br>
+  
+  <br>
+</div>
+<div id="containerList">
+  <ul id="list"></ul>
+</div>
+<div class="mainDiv"> 
+  <form  name="posts" id="formId">
+    Title<input id="inputTitle" type="text" title='title' name="id">    
+    <button id="submit" type="submit">Create</button>
+    <div id="posts"></div>                
+  </form>
+</div>
+  <script src="./main.js" defer></script>
+</body>
+</html>
